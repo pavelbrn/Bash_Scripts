@@ -1,12 +1,21 @@
 #!/bin/bash
 
-# Run this script inside a git repository.
+#commit all files to git master branch
 
-# show git status
-git status
+echo "Commit all files in this directory to master branch? y/n "
+read yn
 
-# Add all files
-git add .
+if [ $yn  == "y" ]; then
+        echo "Please enter a commit message:  "
+        read commit_message
 
-# Commit all files with the name "update"
-git commit -m "update"
+        #show git status, add the files and add commit message to hash
+        git status
+        git add .
+        git commit -m $commit_message
+else
+        echo commit cancelled
+        exit
+fi
+
+

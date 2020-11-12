@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Run this script inside a git repository.
+
 # show git status
 git status
 

@@ -20,6 +20,4 @@
  20 else    
  21         echo commit cancelled
  22         exit
- 23 fi      
- 24 ~     
-
+ 23 fi

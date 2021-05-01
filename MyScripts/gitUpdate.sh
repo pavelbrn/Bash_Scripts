@@ -16,7 +16,7 @@ if [ $yn  == "y" ] && [ -d .git ] ; then
         echo "There is no git repository in this directory"
         exit
          
- else    
+ else   
         echo commit cancelled
         exit
  fi

@@ -4,7 +4,7 @@
 echo "Commit all files in this directory to master branch? y/n "
 read yn
 
-# Get user input 
+# Get user input here 
 if [ $yn  == "y" ] && [ -d .git ] ; then
          echo "Please enter a commit message:  "
          read commit_message

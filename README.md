@@ -1,7 +1,7 @@
 # Bash Scripts
 
-This is a public repository of the bash script I use on my PC or Laptop.
+This is a public repository of the bash scripts I use on my PC or Laptop.
 
-gitUpdate.sh: Shows the status of a git repository, then adds and commits all the files to master branch.
+gitUpdate.sh: Adds and commits all files with a message to the master branch.
 
-get-wln.sh: This is a specific script for my laptop that has Windows installed and a Windows subsystem for Linux(Which I primarily use). This script moves files from my Windows Downloads folder into my Windows Linux Subsystem. I use this when I am on the go and dont have access to my PC and Ubuntu distro.  
+get-wln.sh: This is a specific script for my laptop that has Windows installed and a Windows subsystem for Linux(Which I primarily use). This script moves files from my Windows Downloads folder into my Windows Linux Subsystem. I use this when I am on the go and don't have access to my PC.   

@@ -13,7 +13,7 @@ python setup.py install
 
 # Initialization
 
-Initialize Suirrel inside your project working directory:
+Initialize Squirrel inside your project working directory:
 
 sq -init
 

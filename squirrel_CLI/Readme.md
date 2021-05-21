@@ -30,7 +30,7 @@ you into your working directory.
 
 Setup:
 
-sq -from where/you/are/moving/files/from/
+sq -from dir/moving/files/from/
 
 sq -target your/target/dir/
 

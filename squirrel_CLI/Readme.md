@@ -40,9 +40,14 @@ sq -work_alias YourProjectName
 Typing YourProjectName in the command line from anywhere will now switch 
 you into your working directory.
 
-2) move files from any directory to your target directory
+2) Move files from any directory to your target directory with only
+one command after setting up the "-from" and "-target" directories.
 
 Setup:
+
+You only have to run this setup once, the directory
+paths will be automatically saved unless you change them
+in the future
 
 sq -from dir/moving/files/from/
 
@@ -51,6 +56,9 @@ sq -target your/target/dir/
 Command:
 
 sq -move filenameInsideFromDirectory
+
+From now on the only command you need to move files between 
+the directories is sq -move fileName.
 
 3) If you have a git repository in your directory then use the command
 

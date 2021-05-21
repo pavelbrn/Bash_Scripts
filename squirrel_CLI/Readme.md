@@ -10,13 +10,10 @@ For now this CLI app has three functions:
 This alias switches you into your working directory.
 Example: 
 cd your/project/directory
-
 Initialize Squirrel if running it for the first time in that directory
 sq -init
-
 Create an alias:
 sq -work_alias yourprojectname
-
 Typing yourprojectname in the command line from anywhere will now switch 
 you into your working directory.
 

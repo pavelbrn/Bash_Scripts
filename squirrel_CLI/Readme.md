@@ -25,14 +25,20 @@ you into your working directory.
 
 2) move files from any directory to your target directory
 Setup:
+
 sq -from where/your/files/are/located
+
 sq -target your/target/dir
+
 Command:
+
 sq -move filenameInsideFromDirectory
 
-3) If you have a git repository in your directory then use the
+3) If you have a git repository in your directory then use the command
+
 sq -gc "Your commit message here"
-This will commit all files with a message to your local git repository. 
+
+This will commit all files with a commit message to your local git repository. 
 
 
 Installation:

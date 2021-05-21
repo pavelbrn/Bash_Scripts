@@ -5,12 +5,46 @@ This command line interface app was inspired by my two previous bash scripts,
 I decided to redo both of the bash scripts using python for training purposes.
 This is also a CLI app that I personally use or a regular basis.
 
+For now this CLI app has three functions:
+1) Create a custom alias on your Linux system.
+This alias switches you into your working directory.
+Example: 
+cd your/project/directory
+
+Initialize Squirrel if running it for the first time in that directory
+sq -init
+
+Create an alias:
+sq -work_alias yourprojectname
+
+Typing yourprojectname in the command line from anywhere will now switch 
+you into your working directory.
+
+2) move files from any directory to your target directory
+Setup:
+sq -from where/your/files/are/located
+sq -target your/target/dir
+Command:
+sq -move filenameInsideFromDirectory
+
+3) If you have a git repository in your directory then use the
+sq -gc "Your commit message here"
+This will commit all files with a message to your local git repository. 
+
+
 Installation:
 python setup.py install
 
--from <path>: sets move from directory
+Initialize Suirrel inside your working directory:
+sq -init
 
--targ <path>: sets target directory
+Commands:
+
+sq <plus one if the below commands>
+
+-from <path>: Set the directory where files will be moved from
+
+-targ <path>: sets target directory, your files will be moved here
 
 -work <path>: sets your workig directory
 

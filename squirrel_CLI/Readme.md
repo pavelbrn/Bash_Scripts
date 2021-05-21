@@ -21,9 +21,9 @@ sq -init
 
 Create an alias:
 
-sq -work_alias yourprojectname
+sq -work_alias YourProjectName
 
-Typing <yourprojectname> in the command line from anywhere will now switch 
+Typing YourProjectName in the command line from anywhere will now switch 
 you into your working directory.
 
 2) move files from any directory to your target directory

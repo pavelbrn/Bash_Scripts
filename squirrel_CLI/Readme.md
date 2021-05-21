@@ -42,7 +42,11 @@ sq -gc "Your commit message here"
 This will commit all files with a commit message to your local git repository. 
 
 
-Installation:
+
+# Installation
+
+To install, run the following:
+
 python setup.py install
 
 Initialize Suirrel inside your working directory:

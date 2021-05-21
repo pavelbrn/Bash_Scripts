@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: squirrel
+Version: 0.0.1
+Summary: Command line app for setting up your working environment
+Home-page: http://github.com/pavelbrn
+Author: Pavel B. Zegarra
+Author-email: pavelbrn@gmail.com
+License: UNKNOWN
+Description: Set up your workflow environment with Squirrel
+Platform: UNKNOWN

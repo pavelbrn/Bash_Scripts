@@ -30,9 +30,9 @@ you into your working directory.
 
 Setup:
 
-sq -from where/your/files/are/located
+sq -from where/you/are/moving/files/from/
 
-sq -target your/target/dir
+sq -target your/target/dir/
 
 Command:
 

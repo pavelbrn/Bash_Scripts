@@ -50,6 +50,7 @@ To install, run the following:
 python setup.py install
 
 Initialize Suirrel inside your working directory:
+
 sq -init
 
 Commands:

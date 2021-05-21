@@ -1,1 +1,0 @@
-{"origin": "target/dir/path", "fromdir": "from/dir", "work": "/adsad/gfdg"}

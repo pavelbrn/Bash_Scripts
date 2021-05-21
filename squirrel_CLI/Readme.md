@@ -58,7 +58,7 @@ sq -init
 
 Commands:
 
-sq <plus one if the below commands>
+sq -plus_one_of_the_below_commands
 
 -from <path>: Set the directory where files will be moved from
 

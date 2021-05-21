@@ -56,7 +56,7 @@ Initialize Suirrel inside your working directory:
 
 sq -init
 
-Commands:
+# Commands:
 
 sq -plus_one_of_the_below_commands
 

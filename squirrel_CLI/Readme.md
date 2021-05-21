@@ -8,7 +8,10 @@ This is also a CLI app that I personally use or a regular basis.
 For now this CLI app has three functions:
 1) Create a custom alias on your Linux system.
 This alias switches you into your working directory.
+
 Example: 
+
+First, switch into your working project directory:
 
 cd your/project/directory
 

@@ -5,6 +5,20 @@ This command line interface app was inspired by my two previous bash scripts,
 I decided to redo both of the bash scripts using python for training purposes.
 This is also a CLI app that I personally use on a regular basis.
 
+# Installation
+
+To install, run the following:
+
+python setup.py install
+
+# Initialization
+
+Initialize Suirrel inside your project working directory:
+
+sq -init
+
+# Customize Working Directory
+
 For now this CLI app has three functions:
 1) Create a custom alias on your Linux system.
 This alias switches you into your working directory.
@@ -44,17 +58,6 @@ sq -gc "Your commit message here"
 
 This will commit all files with a commit message to your local git repository. 
 
-
-
-# Installation
-
-To install, run the following:
-
-python setup.py install
-
-Initialize Suirrel inside your working directory:
-
-sq -init
 
 # Commands:
 

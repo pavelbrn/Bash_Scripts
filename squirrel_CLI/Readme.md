@@ -60,19 +60,17 @@ sq -init
 
 sq -plus_one_of_the_below_commands
 
--from <path>: Set the directory where files will be moved from
+-from path: Set the directory where files will be moved from
 
--targ <path>: sets target directory, your files will be moved here
+-targ path: sets target directory, your files will be moved here
 
--work <path>: sets your workig directory
-
--work_alias <name>: creates an alias that will always take you to THIS directory
+-work_alias customName: creates an alias that will always take you to THIS directory
 
 -init: initiates work environment in this directory
 
 -uninstall: removes Squirrel data directory
 
--gc <'Enter your commit message with quotes'> : shows git status, adds all files and commits them with a message you entered
+-gc 'Enter your commit message with quotes' : shows git status, adds all files and commits them with a message you entered
 
 -move: move a file to your target directory that you set up with -from and -targ
 

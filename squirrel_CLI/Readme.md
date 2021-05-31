@@ -1,6 +1,6 @@
 # Squirrel
 
-Squirrel is a command line interface app that sets up your custom work environment.
+Squirrel is my custom made command line interface app that sets up your custom work environment.
 This command line interface app was inspired by my two previous bash scripts,
 I decided to redo both of the bash scripts using python for training purposes.
 This is also a CLI app that I personally use on a regular basis.

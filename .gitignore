@@ -1,6 +1,6 @@
 Squirrel_CLI/.vscode
+Squirrel_CLI/build/
+Squirrel_CLI/data_squirrel/
 Squirrel_CLI/env/
-Squirrel_CLI/build
-Squirrel_CLI/data_squirrel
-Squirrel_CLI/dist
-Squirrel_CLI/*.egg-info
+Squirrel_CLI/dist/
+*.egg-info

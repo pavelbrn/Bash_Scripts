@@ -1,6 +1,0 @@
-.vscode
-env/
-build/
-data_squirrel/
-dist/
-*.egg-info

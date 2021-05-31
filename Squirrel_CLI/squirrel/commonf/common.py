@@ -3,9 +3,9 @@ import json
 import os.path
 
 
-sqrl_path="data/data.txt"
-sqrl_dir="data"
-sqrl_aliases ="data/aliases.txt"
+sqrl_path="data_squirrel/data.txt"
+sqrl_dir="data_squirrel"
+sqrl_aliases ="data_squirrel/aliases.txt"
 
 # Check if Squirrel has been initialized
 ############ Decorator #####################

@@ -1,7 +1,7 @@
 # Bash Scripts
 
-This is a public repository of the bash scripts I use on my PC or Laptop.
+This is a public repository of the bash scripts and my custom built python command line interface app called Squirrel
 
-git-update.sh:  Adds and commits all files with a message to the master branch.
+Squirrel_CLI:  This app creates project aliases, sets file transfer directories and streamlines git commits. 
 
-get-wln.sh: This is a specific script for my laptop that has Windows installed and a Windows subsystem for Linux(Which I primarily use). This script moves files from my Windows Downloads folder into my Windows Linux Subsystem. I use this when I am on the go and don't have access to my PC.   
+Bash_Scripts: These are specific script for my laptop that has Windows installed and a Windows subsystem for Linux(Which I primarily use).

@@ -1,4 +1,4 @@
-# Bash Scripts
+# Custom CLI App and Scripts
 
 This is a public repository of the bash scripts and my custom built python command line interface app called Squirrel
 

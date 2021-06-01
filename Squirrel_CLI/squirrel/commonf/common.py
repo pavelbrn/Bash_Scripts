@@ -2,6 +2,7 @@ import subprocess as s
 import json
 import os.path
 
+#print("test \n test")
 
 sqrl_path="data_squirrel/data.txt"
 sqrl_dir="data_squirrel"
@@ -29,7 +30,9 @@ def create_alias(alias_name):
     # Remove the hidden \n by chaining the replace method onto it and removing \n
     local_path= local_path.stdout.decode().replace("\n","")
 
-    alias_bash = 'alias {name}="cd {path}"'.format(name=alias_name,path=local_path)
+    # Fixed a bug here, use \n to enter a new line otherwise all aliases will ba stacked next to each other
+    # instead of on top of each other line by line. 
+    alias_bash = 'alias {name}="cd {path} "\n'.format(name=alias_name,path=local_path)
     user_home = os.path.expanduser('~')
     bashrc_path = os.path.abspath('{}/.bashrc'.format(user_home))
 

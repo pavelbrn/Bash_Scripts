@@ -4,9 +4,9 @@ import os.path
 
 #print("test \n test")
 
-sqrl_path="data_squirrel/data.txt"
-sqrl_dir="data_squirrel"
-sqrl_aliases ="data_squirrel/aliases.txt"
+sqrl_path=".data_squirrel/data.txt"
+sqrl_dir=".data_squirrel"
+sqrl_aliases =".data_squirrel/aliases.txt"
 
 # Check if Squirrel has been initialized
 ############ Decorator #####################

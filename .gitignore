@@ -3,3 +3,4 @@ Squirrel_CLI/build/
 Squirrel_CLI/env/
 Squirrel_CLI/dist/
 Squirrel_CLI/squirrel.egg-info
+.data_squirrel/
